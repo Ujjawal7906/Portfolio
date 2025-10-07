@@ -6,10 +6,9 @@ window.onload = function() {
 // ---------------------------------typing animation---------------------------------
 var typed = new Typed("#element", {
     strings: [
-        "Web Developer",
-        "Web Designer",
-        "UI Designer",
-        "Graphic Designer",
+      "Web Designer",
+      "UI Designer",
+      "Web Developer",
    ],
     typeSpeed: 50,
    });
