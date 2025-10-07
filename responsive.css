@@ -61,18 +61,18 @@
 }
 
 .left p{
-    font-size: 20px;
+    font-size: 35px;
     font-weight: 500;
     color: #FA6E00;
 }
 
 .left .hi{
-    font-size: 14px;
+    font-size: 30px;
     color: white;
 }
 
 .left span{
-    font-size: 25px;
+    font-size: 38px;
     font-weight: bold;
     letter-spacing: 1px;
     padding: 10px 0;
@@ -81,25 +81,25 @@
 
 .icons a{
     color: white;
-    font-size: 26px;
+    font-size: 36px;
     margin-right: 10px;
     transition: 0.3s;
 }
 
  a:hover{
-    color: initial;
+    color: #FA6E00;
     transform: initial;
 }
 
 .left .buttons{
     display: flex;
-    margin: 30px 2px 30px 80px;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .left .buttons .btn-1, .left .buttons .btn-2{
     padding: 5px 10px;
-    font-size: 7px;
+    font-size: 18px;
     font-weight: 500px;
     border-radius: 5px;
     cursor: pointer;
@@ -115,7 +115,7 @@
 
 .left .buttons .btn-1:hover{
     background-color: initial;
-    color:initial;
+    color: #FA6E00;
     transform:initial;
 }
 
@@ -127,12 +127,12 @@
 
 .left .buttons .btn-2:hover{
     background-color: initial;
-    color: initial;
+    color: #FA6E00;
     transform: initial;
 }
 
 .right img{
-    width: 250px;
+    width: 400px;
     border-radius: 30px;
     margin-top: 15px;
     margin-bottom: 20px;
@@ -144,12 +144,12 @@
 
 .header h1{
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     /* margin-bottom: 10px; */
 }
     .services h1 {
         color: white;
-        font-size: 10px;
+        font-size: 20px;
         /* margin-bottom: 10px; */
     }
 
@@ -163,7 +163,7 @@
     }
 
     .card {
-        height: 190px;
+        height: 400px;
         width: 100px;
         background-color: #1E1E1E;
         padding: 10px 7px;
@@ -179,8 +179,9 @@
 
 
     .card img {
-        width: 70px;
-        height: 70px;
+        width: 90%;
+        height: 60%;
+        border-radius: 5px;
         margin: 2px;
     }
 
@@ -199,7 +200,7 @@
 
     .card p {
         color: #959595;
-        font-size: 7px;
+        font-size: 12px;
         line-height: 1.2;
     }
 
@@ -212,8 +213,8 @@
 }
 
 .about-me .left-about img{
-    width: 230px;
-    height: 280px;
+    width: 90%;
+    height: 300px;
     border-radius: 10px;
     border: 2px solid #FA6E00;
     box-shadow: 0 0 10px #FA6E00;
@@ -227,15 +228,15 @@
 .about-me .right-about{
     color: #959595;
     line-height: 1.2;
-    font-size: 13px;
+    font-size: 18px;
     margin: 0px 30px 20px 30px ;
 }
 
 .about-me .right-about .btn-3{
-    padding: 5px 10px;
-    width: 150px;
-    margin-left: 60px;
-    font-size: 10px;
+    padding: 8px 15px;
+    width: 300px;
+    margin-left: 38px;
+    font-size: 20px;
     font-weight: 400px;
     color: white;
     background-color: #FA6E00;
@@ -354,7 +355,7 @@
 
 .certificates{
   position: relative;
-  height: 250px;
+  height: 350px;
   overflow: hidden;
   margin: 20px;
 }
@@ -364,8 +365,8 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  height: 250px;
-  width: 80%;
+  height: 350px;
+  width: 90%;
   opacity: 0;
   transition: opacity 1s ease-in-out;
   border-radius: 8px;
