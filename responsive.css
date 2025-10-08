@@ -1,7 +1,28 @@
 @media (max-width: 600px) {
     .nav {
-        display: none;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: #1E1E1E;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.4s ease-out;
     }
+
+    .nav.active {
+        max-height: 400px;
+        transition: max-height 0.4s ease-in;
+    }
+
+    .nav a {
+        display: block;
+        margin: 15px 0;
+        font-size: 20px;
+    }
+
 
     .bars {
         display: block;
@@ -43,7 +64,7 @@
 
 .hire-me button:hover{
     background-color: initial;
-    color: initial;
+    color: #FA6E00;
     transform: initial;
 }
    
@@ -248,7 +269,7 @@
 
 .about-me .right-about .btn-3:hover{
     background-color: initial;
-    color: initial;
+    color: #FA6E00;
     transform: initial;
 }
 
@@ -347,7 +368,7 @@
 
 .project-card button:hover{
     background-color: initial;
-    color: initial;
+    color: #FA6E00;
     transform: initial;
 }
 

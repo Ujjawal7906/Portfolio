@@ -25,10 +25,10 @@ const certificates = document.querySelectorAll(".certificates img");
     }, 2000);
 
 // ---------------------------------hire me button---------------------------------
-function hireMe() {
-    document.getElementById("contact").scrollIntoView({ behavior: 'smooth' });
+// function hireMe() {
+//     document.getElementById("contact").scrollIntoView({ behavior: 'smooth' });
 
-}
+// }
 
 function downloadResume() {
   window.open('Images/Ujjawal Resume.pdf', '_blank');
@@ -37,3 +37,14 @@ function downloadResume() {
 function project1() {
   window.open('https://ujjawal7906.github.io/Calculator/', '_blank');
 }
+
+// ----------------------------------toggle------------------------------------------
+
+function toggleMenu() {
+            const nav = document.getElementById("navLinks");
+            nav.classList.toggle("active");
+        }
+
+        function hireMe() {
+            alert("Thank you for your interest! Please contact me via the form below 😊");
+        }
