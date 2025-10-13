@@ -38,6 +38,10 @@ function project1() {
   window.open('https://ujjawal7906.github.io/Calculator/', '_blank');
 }
 
+function project2() {
+  window.open('https://ujjawal7906.github.io/Portfolio/', '_blank');
+}
+
 // ----------------------------------toggle------------------------------------------
 
 function toggleMenu() {
