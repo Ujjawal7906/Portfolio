@@ -45,10 +45,10 @@ function project2() {
 // ----------------------------------toggle------------------------------------------
 
 function toggleMenu() {
-            const nav = document.getElementById("navLinks");
-            nav.classList.toggle("active");
-        }
+  const nav = document.getElementById("navLinks");
+  nav.classList.toggle("active");
+}
 
-        function hireMe() {
-            alert("Thank you for your interest! Please contact me via the form below 😊");
-        }
+function hireMe() {
+    alert("Thank you for your interest! Please contact me via the form below 😊");
+  }
