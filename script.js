@@ -31,7 +31,7 @@ const certificates = document.querySelectorAll(".certificates img");
 // }
 
 function downloadResume() {
-  window.open('Images/Ujjawal Resume.pdf', '_blank');
+  window.open('Images/Brown & Cream Professional Web Developer Resume_20251228_180809_0000.pdf', '_blank');
 }
 
 function project1() {
