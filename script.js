@@ -31,7 +31,7 @@ const certificates = document.querySelectorAll(".certificates img");
 // }
 
 function downloadResume() {
-  window.open('Images/');
+  window.open('Images/Resume.docx');
 }
 
 function project1() {
